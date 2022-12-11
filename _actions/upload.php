@@ -8,8 +8,6 @@ $error = $_FILES['file']['error'];
 $tmp = $_FILES['file']['tmp_name'];
 $type = $_FILES['file']['type'];
 
-echo $_POST['username'];
-
 if ($user == 'kophyo' and $_GET['token'] == $_SESSION['token']) {
 
 if($error) {
