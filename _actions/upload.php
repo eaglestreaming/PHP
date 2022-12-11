@@ -2,8 +2,6 @@
 
 session_start();
 
-print_r($_FILES);
-
 $user = htmlspecialchars($_POST['username']);
 $name = $_FILES['file']['name'];
 $error = $_FILES['file']['error'];
