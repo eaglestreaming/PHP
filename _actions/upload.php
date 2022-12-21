@@ -8,7 +8,7 @@ $error = $_FILES['file']['error'];
 $tmp = $_FILES['file']['tmp_name'];
 $type = $_FILES['file']['type'];
 
-if ($user == 'kophyo' and $_GET['token'] == $_SESSION['token']) {
+if ($user == '0110' and $_GET['token'] == $_SESSION['token']) {
 
 if($error) {
 	header('location: ../index.php?error=file');
