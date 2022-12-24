@@ -34,7 +34,7 @@ $_SESSION['token'] = $token; ?>
 
 				<input type="file" name="file" style="color: green; border-radius: 5px; width: 190px; font-family: times,serif;" required>
 
-				<button style="color: white; background-color: green; border-radius: 5px; font-family: times,serif;">Upload Profile</button>
+				<button style="color: white; background-color: green; border-radius: 5px; font-family: times,serif;">Upload File (s)</button>
 			</div> <br>
 		</form>
 
